@@ -6,7 +6,7 @@ function Cart({ props }) {
   console.log(url);
 
   return (
-    <div className="border border-slate-400 inline-block py-5 px-6 max-w-[320px] rounded-lg">
+    <div className="border border-slate-400 inline-block py-5 px-6 max-w-[320px] w-full rounded-lg">
       <img src={url} className="rounded-lg mb-5 max-w-[277px] mx-auto" />
       <h3 className="text-2xl font-semibold mb-3">{props.title}</h3>
       <div className="flex mb-4">
