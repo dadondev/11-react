@@ -10,7 +10,7 @@ function Cart({ props }) {
       <img src={url} className="rounded-lg mb-5 max-w-[277px] mx-auto" />
       <h3 className="text-2xl font-semibold mb-3">{props.title}</h3>
       <div className="flex mb-4">
-        <p className="text-slate-400 max-h-5 w-[calc(100%-30%)] overflow-y-hidden">
+        <p className="text-slate-400 max-h-[calc(100%-30%)] overflow-y-hidden">
           {props.description}
         </p>
         <li className="list-none">Read more</li>
